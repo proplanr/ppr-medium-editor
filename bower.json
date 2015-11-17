@@ -1,0 +1,30 @@
+{
+  "name": "ppr-medium-editor",
+  "version": "0.0.1",
+  "authors": [
+    "Chuck Horton <chuckh@hware.com>"
+  ],
+  "description": "Element wrapper for the medium editor library",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "editor",
+    "medium"
+  ],
+  "main": "ppr-medium-editor.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/proplanr/ppr-medium-editor/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0",
+    "medium-editor": "~5.10.0",
+    "medium-editor-insert-plugin": "~2.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
